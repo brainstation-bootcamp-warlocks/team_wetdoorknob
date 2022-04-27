@@ -6,6 +6,7 @@
 .main {
   background-color: rgb(37, 37, 37);
   height: 70vh;
+  padding: 4rem 0;
 }
 
 .main__button-area {
@@ -17,6 +18,21 @@
 .main__title {
   color: white;
   font-size: 4rem;
+}
+
+.main__desc-title {
+  color: gray;
+  font-size: 3rem;
+  font-style: italic;
+  padding: 5rem 0;
+}
+
+.main__desc {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+  width: 75%;
 }
 
 .main__button {
