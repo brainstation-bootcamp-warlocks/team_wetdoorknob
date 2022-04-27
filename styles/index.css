@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
-.header {
+.header__wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(255, 203, 5);
+  height: 15vh;
 }
 
 .logo-left,
@@ -21,6 +23,19 @@
   text-shadow: 7px 11px 2px rgb(199, 160, 8);
 }
 
-.header {
-  background-color: rgb(255, 203, 5);
+.main__wrapper {
+  background-color: springgreen;
+  height: 70vh;
+}
+
+.footer__wrapper {
+  height: 15vh;
+  max-width: 100vw;
+  background-color: rgb(42, 117, 187);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__img {
+  height: 15vh;
 }/*# sourceMappingURL=index.css.map */
