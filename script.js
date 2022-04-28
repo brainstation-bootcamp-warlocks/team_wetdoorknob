@@ -1,7 +1,18 @@
 
+/* 
+    click button
+    grab pokemon name
+    print pokemon name (maybe in like a sentence) on the page
+    (probably need a clear function somewhere)
+    everytime u refresh / press the button again, a new pokemon will replace it
+
+*/
+
+
 
 
 function getPokemon() {
+
 
 
     function getRandomNumber(max) {
@@ -24,16 +35,16 @@ function getPokemon() {
 
     }
 
-
-    /* 
-    click button
-    grab pokemon name
-    print pokemon name (maybe in like a sentence) on the page
-    (probably need a clear function somewhere)
-    everytime u refresh / press the button again, a new pokemon will replace it
-
-    */
+    
+    
 
 }
 
-getPokemon();
+/*
+const mainButton = document.getElementsByClassName("main__button");
+mainButton.addEventListener("click", getPokemon)
+*/
+
+
+//getPokemon();
+
